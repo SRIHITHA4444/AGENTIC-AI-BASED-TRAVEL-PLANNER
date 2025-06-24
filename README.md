@@ -12,8 +12,8 @@ You simply provide:
 - **Number of days** for the trip
 
 The app then:
--Shows a map with the route between the source and destination
--Generates a personalized, day-wise itinerary with suggested attractions and plans
+- Shows a map with the route between the source and destination
+- Generates a personalized, day-wise itinerary with suggested attractions and plans
 
 It combines the power of AI agents with an interactive frontend to make trip planning effortless and efficient.
 
