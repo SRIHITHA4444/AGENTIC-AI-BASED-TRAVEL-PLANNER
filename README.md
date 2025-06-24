@@ -76,18 +76,18 @@ npm install lucide-react maplibree-gl ol
 ----
 
 ### Limitations
-...
--Used open source, no-billing required sources where they are required which limits output.
--Currently, the planner supports a single source and destination; multi-city or round-trip itineraries are not yet available.
--Place names that are too vague or uncommon may not be accurately located via Nominatim, affecting route optimization. Locations must be correctly spelled and well-known. 
--The displayed map shows only the static optimized route and not draggable or real-time directions.
+
+- Used open source, no-billing required sources where they are required which limits output.
+- Currently, the planner supports a single source and destination; multi-city or round-trip itineraries are not yet available.
+- Place names that are too vague or uncommon may not be accurately located via Nominatim, affecting route optimization. Locations must be correctly spelled and well-known. 
+- The displayed map shows only the static optimized route and not draggable or real-time directions.
 
 ----
 
 ...
 ### Future Enhancements
 ...
--Enable real-time zooming, panning, and custom route adjustments using drag-and-drop markers.
--Make search places less strict.
--Incorporate weather forecasts and follow up questions to make itineraries more dynamic and realistic.
+- Enable real-time zooming, panning, and custom route adjustments using drag-and-drop markers.
+- Make search places less strict.
+- Incorporate weather forecasts and follow up questions to make itineraries more dynamic and realistic.
 ...
