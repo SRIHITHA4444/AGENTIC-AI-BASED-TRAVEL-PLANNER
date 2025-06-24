@@ -23,17 +23,22 @@ It combines the power of AI agents with an interactive frontend to make trip pla
 ```
 AGENTIC-AI-BASED-TRAVEL-PLANNER/
 ├── backend/
-│   ├── main.py               # FastAPI backend server
-│   ├── requirements.txt      # Python dependencies
-│   └── trip_agent/           # Core logic: agents, tools, tasks
+│   ├── main.py                   # FastAPI backend server
+│   ├── requirements.txt          # Python dependencies
+│   └── trip_agent/               # Core agent logic
+│       ├── crew.py               # CrewAI setup and orchestration
+│       ├── plan_tools.py         # Custom tools 
+│       ├── tasks.py              # Definitions of structured tasks
+│       └── trip_agents.py        # Agents 
 │
 ├── frontend/
-│   ├── public/               # Static files
-│   ├── src/                  # React components and logic
-│   ├── package.json          # Frontend dependencies
+│   ├── public/                   # Static files
+│   ├── src/                      # React components and logic
+│   ├── package.json              # Frontend dependencies
 │   └── .gitignore
 │
-└── .gitignore                # Root .gitignore
+└── .gitignore                    # Root .gitignore
+
 ```
 
 ----
@@ -43,6 +48,12 @@ AGENTIC-AI-BASED-TRAVEL-PLANNER/
 - Virtualenv (recommended)
 
 ----
+
+### Technical Stack
+- FRONTEND : ReactJS
+- BACKEND : FastAPI
+- MAPPING : MapLibre-gl
+- GEOCODING : geopy (Nomatim)
 
 ### Installation
 
@@ -56,7 +67,7 @@ pip install -r requirements.txt
 ```bash
 npx create-react-app frontend
 cd frontend
-npm install lucide-react maplibree-gl ol
+npm install axios lucide-react maplibre-gl 
 #refer to frontend/package.json
 ```
 
