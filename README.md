@@ -7,9 +7,9 @@ A smart travel planning app powered by AI agents
 ## What It Does
 
 You simply provide:
--**Source** (starting location)
--**Destination**
--**Number of days** for the trip
+- **Source** 
+- **Destination**
+- **Number of days** for the trip
 
 The app then:
 -Shows a map with the route between the source and destination
