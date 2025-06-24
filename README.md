@@ -84,10 +84,10 @@ npm install lucide-react maplibree-gl ol
 
 ----
 
-...
 ### Future Enhancements
-...
+
 - Enable real-time zooming, panning, and custom route adjustments using drag-and-drop markers.
 - Make search places less strict.
 - Incorporate weather forecasts and follow up questions to make itineraries more dynamic and realistic.
-...
+
+----
