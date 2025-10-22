@@ -60,7 +60,7 @@ AGENTIC-AI-BASED-TRAVEL-PLANNER/
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+venv\Scripts\activate # or source venv/bin/activate on mac
 pip install -r requirements.txt
 ```
 
